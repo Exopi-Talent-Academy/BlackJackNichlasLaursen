@@ -116,8 +116,17 @@ namespace Dealing
                             break;
                         }
                     case "dd":
+                    // Check if player has enough chips to double the bet
+                        if (bet.CurrentChips >= bet.BetAmount * 2)
+                        {
                         (playerValue, dealerValue) = HandleDoubleDown(playerValue, dealerValue);
                         return;
+                        }
+                        else
+                        {
+                            Console.WriteLine("You do not have enough chips to double down.");
+                            break;
+                        }
                     case "sr":
                         HandleSurrender();
                         return;
@@ -213,6 +222,7 @@ namespace Dealing
 
         private (int playerValue, int dealerValue) HandleDoubleDown(int playerValue, int dealerValue)
         {
+            //Check player has enough chips to double the bet
             Console.WriteLine("You chose to double down.");
 
             // Double the bet

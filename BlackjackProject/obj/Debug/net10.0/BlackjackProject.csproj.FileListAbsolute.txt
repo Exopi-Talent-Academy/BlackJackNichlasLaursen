@@ -26,3 +26,4 @@ C:\Users\Nichlas Ravn Laursen\Projects\C#\Blackjack\BlackjackProject\obj\Debug\n
 C:\Users\Nichlas Ravn Laursen\Projects\C#\Blackjack\BlackjackProject\obj\Debug\net10.0\BlackjackProject.pdb
 C:\Users\Nichlas Ravn Laursen\Projects\C#\Blackjack\BlackjackProject\obj\Debug\net10.0\BlackjackProject.genruntimeconfig.cache
 C:\Users\Nichlas Ravn Laursen\Projects\C#\Blackjack\BlackjackProject\obj\Debug\net10.0\ref\BlackjackProject.dll
+C:\Users\Nichlas Ravn Laursen\Projects\C#\Blackjack\BlackjackProject\obj\Debug\net10.0\BlackjackProject.sourcelink.json
